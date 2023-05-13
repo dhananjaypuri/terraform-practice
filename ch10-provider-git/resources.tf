@@ -3,7 +3,7 @@ resource "github_repository" "gitrepo1" {
   description = "Repository created by terraform"
 
   visibility = "public"
-  auto_init = true
+  auto_init  = true
 
 }
 
@@ -12,6 +12,6 @@ resource "github_repository" "gitrepo2" {
   description = "Repository created by terraform"
 
   visibility = "public"
-  auto_init = true
+  auto_init  = true
 
 }
